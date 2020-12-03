@@ -1,11 +1,11 @@
-version: '3.1'
+version: "3.1"
 
 services:
   db:
     image: postgres
     restart: always
     volumes:
-      - ./db/next-auth-prisma:/var/lib/postgresql/data
+      - ./docker/db/next-auth-prisma:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
