@@ -148,5 +148,3 @@ migration ..20201203014507-init
 +  @@map(name: "verification_requests")
 +}
 ```
-
-
